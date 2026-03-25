@@ -1,0 +1,40 @@
+{
+  "name": "picgo-plugin-imgproxy",
+  "version": "1.0.0",
+  "description": "Replace PicGo copied URLs with imgproxy signed URLs after upload.",
+  "homepage":"https://github.com/eyunzhu/picgo-plugin-imgproxy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eyunzhu/picgo-plugin-imgproxy.git"
+  },
+  "main": "index.js",
+  "type": "commonjs",
+  "author": "eyunzhu",
+  "license": "MIT",
+  "keywords": [
+    "picgo",
+    "picgo-core",
+    "picgo-gui-plugin",
+    "picgo-plugin",
+    "piclist",
+    "imgproxy",
+    "s3"
+  ],
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  }
+}
